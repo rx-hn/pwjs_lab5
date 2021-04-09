@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Strona Laboratorium 4</title>
+
+	<link href="style.css" rel="stylesheet"/>
+  </head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" ariaexpanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="#">
+        <div id="logo">
+          <img src="img/logo.png" alt="tytuł obrazka">
+        </div>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav text-right navbar-right">
+        <li class="active "><a href="#main-page" class="btn btn-primary"><span class="glyphicon glyphicon-home"></span>Strona główna</a></li>
+        <li><a href="strona2.html" class="btn btn-primary"><span class="glyphicon glyphicon-record" ></span>Podstrona zadanie</a></li>
+        <li><a href="strona3.html" class="btn btn-primary"><span class="glyphicon glyphicon-record" ></span>JavaScript zadanie</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<header>
+
+  <div class="container">
+    <div id="carouselID" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselID" data-slide-to="0"class="active"></li>
+          <li data-target="#carouselID" data-slide-to="1"></li>
+          <li data-target="#carouselID" data-slide-to="2"></li>
+          <li data-target="#carouselID" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/la.jpg" alt="Los Angeles">
+            <div class="carousel-caption">Los Angeles</div>
+          </div>
+          <div class="item">
+            <img src="img/chicago.jpg" alt="Chicago">
+            <div class="carousel-caption">Chicago</div>
+          </div>
+          <div class="item">
+            <img src="img/ny.jpg" alt="New York">
+            <div class="carousel-caption">New York</div>
+          </div>
+          <div class="item">
+            <img src="img/warszawa.jpg" alt="Warszawa">
+            <div class="carousel-caption">Warszawa</div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carouselID" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" ariahidden="true"></span>
+          <span class="sr-only">Poprzedni</span>
+        </a>
+
+        <a class="right carousel-control" href="#carouselID" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" ariahidden="true"></span>
+          <span class="sr-only">Następny</span>
+        </a>
+    </div>
+  </div>
+
+</header>
+
+<section id="main-page" class="jumbotron">
+  <div class="container">
+    <h1></span>Formuła Lorem Ipsum.</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+</section>
+
+<div class="container text-center">
+  <div class="row">
+		<div class="col-sm-12 bg-warning">
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <td rowspan="2">lp.</td>
+            <td colspan="2">Osoba</td>
+            <td rowspan="2">Info</td>
+          </tr>
+          <tr>
+             <td >Imie</td>  <td >Nazwisko</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1.</td><td>Jan</td><td>Kowalski</td><td>Student</td>
+          </tr>
+          <tr>
+            <td>2.</td><td>Anna</td><td>Nowak</td><td>Student</td>
+          </tr>
+          <tr>
+            <td>3.</td> <td>Maria</td><td>Kowalska</td><td>Absolwent</td>
+          </tr>
+           <tr><td>4.</td><td>Michał</td><td>Nowak</td><td>Student</td>
+          </tr>
+        </tbody>
+      </table>
+
+		</div>
+   </div>
+ </div>
+
+<br>
+
+	<footer>
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+		  Polityka prywatności
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Nasza Polityka</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				Dane są bezpieczne oraz nie ma się co bać.
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</footer>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
